@@ -43,6 +43,16 @@
 #define CRAFT_KEY_COMMAND '/'
 #define CRAFT_KEY_SIGN '`'
 
+// mgc2 - terrain parameters
+#define TERRAIN_SEA_LEVEL 128
+#define TERRAIN_BASE_LEVEL 12
+#define CLOUDS_MIN_LEVEL TERRAIN_SEA_LEVEL + 64
+#define CLOUDS_MAX_LEVEL TERRAIN_SEA_LEVEL + 72
+#define MIN_Y_1 256 // was 256 at main.c:1029
+#define MAX_Y_1 0
+#define Y_TOP_1 256
+#define Y_BOTTOM_1 0
+
 // advanced parameters
 #define CREATE_CHUNK_RADIUS 10
 #define RENDER_CHUNK_RADIUS 10
